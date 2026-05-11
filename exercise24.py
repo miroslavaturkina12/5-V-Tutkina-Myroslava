@@ -25,4 +25,22 @@ up()
 goto(180, 20)
 dot(15)
 
+up()
+goto(-10, -0)
+down()
+goto(-70, 0)
+goto(-70, 15)
+goto(-130, 15)
+
+up()
+goto(-35, 25)
+down()
+goto(-85, 25)
+goto(-85, 40)
+
+up()
+goto(115, 25)
+down()
+goto(150, 25)
+
 done()
