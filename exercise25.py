@@ -1,0 +1,71 @@
+from turtle import *
+
+width(3)
+# крпус човна
+fillcolor ('brown')
+begin_fill()
+goto(-40, 50)
+goto(120, 50)
+goto(80, 0)
+goto(0, 0)
+end_fill()
+
+
+up()
+goto(40, 50)
+# віттрило
+fillcolor ('pink')
+begin_fill()
+down()
+goto(40, 130)
+goto(70, 95)
+goto(40, 60)
+end_fill()
+
+# кит
+up()
+goto(250, 0)
+down() 
+left(90)
+fillcolor ('beige')
+begin_fill() 
+circle(50, 180)
+goto(270, 0)
+goto(270, 20)
+goto(250, 0)
+up()
+goto(180, 20)
+dot(15)
+end_fill()
+
+# хвилі
+color('blue')
+up()
+goto(-10, -0)
+down()
+goto(-70, 0)
+goto(-70, 15)
+goto(-130, 15)
+
+up()
+goto(-35, 25)
+down()
+goto(-85, 25)
+goto(-85, 40)
+
+up()
+goto(115, 25)
+down()
+goto(150, 25)
+
+
+# сонце
+color ('yellow', 'yellow')
+up()
+goto(200, 200)
+down()
+begin_fill()
+circle(30)
+end_fill()
+
+done()

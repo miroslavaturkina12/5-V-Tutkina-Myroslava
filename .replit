@@ -7,7 +7,7 @@ stack = "BEST_EFFORT_FALLBACK"
 channel = "stable-25_05"
 
 [workflows]
-runButton = "Exercise 24"
+runButton = "Exercise 25"
 
 [[workflows.workflow]]
 name = "Project"
@@ -46,3 +46,12 @@ author = 55257917
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python exercise24.py"
+
+[[workflows.workflow]]
+name = "Exercise 25"
+mode = "sequential"
+author = 55257917
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python exercise25.py"
